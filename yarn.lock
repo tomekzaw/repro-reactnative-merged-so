@@ -1621,6 +1621,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@expensify/react-native-live-markdown@npm:0.1.157":
+  version: 0.1.157
+  resolution: "@expensify/react-native-live-markdown@npm:0.1.157"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: b63325a504d744bafa30cb9c7dc87a390313f049864925117e2420ca510e00103ca3e2cf4e2dd190fbe1e8fd4a10813635fda6615117383363d806e8656dcd14
+  languageName: node
+  linkType: hard
+
+"@expensify/react-native-live-markdown@patch:@expensify/react-native-live-markdown@npm%3A0.1.157#./.yarn/patches/@expensify-react-native-live-markdown-npm-0.1.157-f5f83ed8cb.patch::locator=RN076RC1%40workspace%3A.":
+  version: 0.1.157
+  resolution: "@expensify/react-native-live-markdown@patch:@expensify/react-native-live-markdown@npm%3A0.1.157#./.yarn/patches/@expensify-react-native-live-markdown-npm-0.1.157-f5f83ed8cb.patch::version=0.1.157&hash=5d405f&locator=RN076RC1%40workspace%3A."
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: e620d65188f79680f02a611348a935a40b3f3f2702e20173c376eb4f916232fa6a93aa90d93fe89f2264ed64b0f48728c47874e4ee7b8ab08a5afe4430215691
+  languageName: node
+  linkType: hard
+
 "@hapi/hoek@npm:^9.0.0, @hapi/hoek@npm:^9.3.0":
   version: 9.3.0
   resolution: "@hapi/hoek@npm:9.3.0"
@@ -2884,6 +2904,7 @@ __metadata:
     "@babel/core": ^7.25.2
     "@babel/preset-env": ^7.25.3
     "@babel/runtime": ^7.25.0
+    "@expensify/react-native-live-markdown": ^0.1.157
     "@react-native-community/cli": 15.0.0-alpha.2
     "@react-native-community/cli-platform-android": 15.0.0-alpha.2
     "@react-native-community/cli-platform-ios": 15.0.0-alpha.2

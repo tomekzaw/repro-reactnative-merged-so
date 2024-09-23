@@ -1,0 +1,15 @@
+diff --git a/android/src/main/new_arch/CMakeLists.txt b/android/src/main/new_arch/CMakeLists.txt
+index 2b506f3f77e8af730aa8da89b70d50ca0966b967..1faaab1848d398d5b603203d35434fcd1ff46ebe 100644
+--- a/android/src/main/new_arch/CMakeLists.txt
++++ b/android/src/main/new_arch/CMakeLists.txt
+@@ -91,3 +91,10 @@ target_include_directories(
+         PUBLIC
+         ${CMAKE_CURRENT_SOURCE_DIR}
+ )
++
++message(WARNING "REACTNATIVE_MERGED_SO: >>>${REACTNATIVE_MERGED_SO}<<<")
++if(REACTNATIVE_MERGED_SO)
++        message(FATAL_ERROR "REACTNATIVE_MERGED_SO is set")
++else()
++        message(FATAL_ERROR "REACTNATIVE_MERGED_SO is not set")
++endif()

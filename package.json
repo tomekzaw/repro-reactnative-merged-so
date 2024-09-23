@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@expensify/react-native-live-markdown": "^0.1.157",
     "react": "18.3.1",
     "react-native": "0.76.0-rc.1"
   },
@@ -36,5 +37,8 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@3.6.4"
+  "packageManager": "yarn@3.6.4",
+  "resolutions": {
+    "@expensify/react-native-live-markdown@^0.1.157": "patch:@expensify/react-native-live-markdown@npm%3A0.1.157#./.yarn/patches/@expensify-react-native-live-markdown-npm-0.1.157-f5f83ed8cb.patch"
+  }
 }
